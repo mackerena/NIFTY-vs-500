@@ -17,11 +17,13 @@ The two markets keep different holiday calendars, so only days on which both wer
 
 Headline returns aren't comparable across currencies, so the Nifty is converted to dollars by dividing by USD/INR. All three series are then rebased to 100 at the start date. For co-movement, daily percentage changes are plotted against each other with a least-squares line.
 
-**Results**
-	Total	CAGR	Ann. vol
-S&P 500	80.5%	13.2%	21.5%
-Nifty 50 (INR)	92.5%	14.8%	19.4%
-Nifty 50 (USD)	59.4%	10.3%	—
+## Results
+ 
+|                | Total | CAGR  | Ann. vol |
+| -------------- | ----- | ----- | -------- |
+| S&P 500        | 80.5% | 13.2% | 21.5%    |
+| Nifty 50 (INR) | 92.5% | 14.8% | 19.4%    |
+| Nifty 50 (USD) | 59.4% | 10.3% | —        |
 
 In rupees the Nifty won by 12 percentage points. In dollars it lost by 21. The rupee depreciated 20.8% against the dollar over the period, and that alone accounts for the reversal. The orange and green lines in the left chart are the same index; the gap between them is currency.
 
