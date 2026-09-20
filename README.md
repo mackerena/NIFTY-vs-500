@@ -33,6 +33,8 @@ Daily return correlation is 0.35, with a regression slope of 0.31. The scatter i
 
 The Nifty was also the less volatile of the two in local terms, 19.4% against 21.5%.
 
+<img width="2108" height="1328" alt="image" src="https://github.com/user-attachments/assets/e479ea7c-aa55-4887-a05c-4f37e533f919" />
+
 ## Takeaway
 
 Neither index won outright. The entire difference between the two results is the 20.8% rupee depreciation, which means the question only has an answer once you specify whose currency the investor spends. For an Indian investor holding domestically the Nifty was the better asset and the less volatile one; for a US investor the same index was the worse trade by a wide margin.
