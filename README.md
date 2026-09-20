@@ -15,7 +15,7 @@ Adjust `START` and `END` at the top of the script to change the window.
 
 Daily closes for both indexes plus the USD/INR rate (`INR=X`) are pulled from Yahoo Finance via `yfinance`.
 
-The two markets keep different holiday calendars, so only days on which both were open are kept — 1,199 of them. Without this the return series are misaligned and the correlation is meaningless.
+The two markets keep different holiday calendars, so only days on which both were open are kept (1,199 of them). Without this the return series are misaligned and the correlation is meaningless.
 
 Headline returns aren't comparable across currencies, so the Nifty is converted to dollars by dividing by USD/INR. All three series are then rebased to 100 at the start date. For co-movement, daily percentage changes are plotted against each other with a least-squares line.
 
