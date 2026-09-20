@@ -9,15 +9,15 @@ python sp500_vs_nifty.py
 
 Adjust START and END at the top of the script to change the window.
 
-Method
+**Method**
 
 Daily closes for both indexes plus the USD/INR rate (INR=X) are pulled from Yahoo Finance via yfinance.
 
-The two markets keep different holiday calendars, so only days on which both were open are kept — 1,199 of them. Without this the return series are misaligned and the correlation is meaningless.
+The two markets keep different holiday calendars, so only days on which both were open are kept - 1,199 of them. Without this the return series are misaligned and the correlation is meaningless.
 
 Headline returns aren't comparable across currencies, so the Nifty is converted to dollars by dividing by USD/INR. All three series are then rebased to 100 at the start date. For co-movement, daily percentage changes are plotted against each other with a least-squares line.
 
-Results
+**Results**
 	Total	CAGR	Ann. vol
 S&P 500	80.5%	13.2%	21.5%
 Nifty 50 (INR)	92.5%	14.8%	19.4%
@@ -29,8 +29,8 @@ Daily return correlation is 0.35, with a regression slope of 0.31. The scatter i
 
 The Nifty was also the less volatile of the two in local terms, 19.4% against 21.5%.
 
-Takeaway
+**Takeaway**
 
 Neither index won outright. The entire difference between the two results is the 20.8% rupee depreciation, which means the question only has an answer once you specify whose currency the investor spends. For an Indian investor holding domestically the Nifty was the better asset and the less volatile one; for a US investor the same index was the worse trade by a wide margin.
 
-The correlation of 0.35 says the two markets are loosely linked day to day, largely because their sessions don't overlap, which could be a genuine case for holding both. The March 2020 drawdown is a reminder that the diversification is weakest in exactly the periods it would matter most.
+The correlation of 0.35 says the two markets are loosely linked day to day, largely because their sessions don't overlap, which could make for a genuine case for holding both. The March 2020 drawdown is a reminder that the diversification is weakest in exactly the periods it would matter most.
