@@ -1,6 +1,6 @@
 # S&P 500 vs Nifty 50
 
-A comparison of the S&P 500 (`^GSPC`) and the Nifty 50 (`^NSEI`) over 2020-01-01 to 2025-01-01, asking two questions: which index actually delivered more to an investor, and how closely the two markets move day to day.
+This project is a comparison of the S&P 500 (`^GSPC`) and the Nifty 50 (`^NSEI`) over 2020-01-01 to 2025-01-01, asking two questions: which index actually delivered more to an investor, and how closely the two markets move day to day.
 
 ## Running it
 
